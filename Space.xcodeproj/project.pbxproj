@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B2957E1CAA30D100BDFD76 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B2957D1CAA30D100BDFD76 /* HomeViewController.m */; };
 		69C54F941C9C6506004DCEB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54F931C9C6506004DCEB5 /* main.m */; };
 		69C54F971C9C6506004DCEB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54F961C9C6506004DCEB5 /* AppDelegate.m */; };
 		69C54F9A1C9C6506004DCEB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54F991C9C6506004DCEB5 /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		69C54FA21C9C6506004DCEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C54FA01C9C6506004DCEB5 /* LaunchScreen.storyboard */; };
 		69C54FAD1C9C6506004DCEB5 /* SpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54FAC1C9C6506004DCEB5 /* SpaceTests.m */; };
 		69C54FB81C9C6506004DCEB5 /* SpaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54FB71C9C6506004DCEB5 /* SpaceUITests.m */; };
+		69C54FC61C9C6557004DCEB5 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54FC51C9C6557004DCEB5 /* Ship.m */; };
+		69C54FC91C9C6980004DCEB5 /* Kamakazi.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C54FC81C9C6980004DCEB5 /* Kamakazi.png */; };
+		69C54FCB1C9C6DDE004DCEB5 /* Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C54FCA1C9C6DDE004DCEB5 /* Loading.png */; };
+		69C54FCD1C9C6DEC004DCEB5 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54FCC1C9C6DEC004DCEB5 /* Planet.m */; };
+		69C54FD01C9C6E28004DCEB5 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C54FCF1C9C6E28004DCEB5 /* MyObject.m */; };
+		69FF04251CA6FC79006D8656 /* Space.png in Resources */ = {isa = PBXBuildFile; fileRef = 69FF04241CA6FC79006D8656 /* Space.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69B2957D1CAA30D100BDFD76 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		69B2957F1CAA30D800BDFD76 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		69C54F8F1C9C6505004DCEB5 /* Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Space.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C54F931C9C6506004DCEB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69C54F951C9C6506004DCEB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		69C54FB31C9C6506004DCEB5 /* SpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C54FB71C9C6506004DCEB5 /* SpaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceUITests.m; sourceTree = "<group>"; };
 		69C54FB91C9C6506004DCEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C54FC51C9C6557004DCEB5 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		69C54FC71C9C655E004DCEB5 /* Ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		69C54FC81C9C6980004DCEB5 /* Kamakazi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kamakazi.png; path = "../../../Mutable Graphics/Kamakazi.png"; sourceTree = "<group>"; };
+		69C54FCA1C9C6DDE004DCEB5 /* Loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Loading.png; path = "../../../Mutable Graphics/Loading.png"; sourceTree = "<group>"; };
+		69C54FCC1C9C6DEC004DCEB5 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		69C54FCE1C9C6DF1004DCEB5 /* Planet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		69C54FCF1C9C6E28004DCEB5 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		69C54FD11C9C6E2D004DCEB5 /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		69FF04241CA6FC79006D8656 /* Space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Space.png; path = "../../The Ball Carrier/The Ball Carrier/Space.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,9 @@
 				69C54F961C9C6506004DCEB5 /* AppDelegate.m */,
 				69C54F981C9C6506004DCEB5 /* ViewController.h */,
 				69C54F991C9C6506004DCEB5 /* ViewController.m */,
+				69B2957F1CAA30D800BDFD76 /* HomeViewController.h */,
+				69B2957D1CAA30D100BDFD76 /* HomeViewController.m */,
+				69C54FD21C9C6E37004DCEB5 /* My Objects */,
 				69C54F9B1C9C6506004DCEB5 /* Main.storyboard */,
 				69C54F9E1C9C6506004DCEB5 /* Assets.xcassets */,
 				69C54FA01C9C6506004DCEB5 /* LaunchScreen.storyboard */,
@@ -117,6 +138,9 @@
 		69C54F921C9C6505004DCEB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69FF04241CA6FC79006D8656 /* Space.png */,
+				69C54FCA1C9C6DDE004DCEB5 /* Loading.png */,
+				69C54FC81C9C6980004DCEB5 /* Kamakazi.png */,
 				69C54F931C9C6506004DCEB5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +162,19 @@
 				69C54FB91C9C6506004DCEB5 /* Info.plist */,
 			);
 			path = SpaceUITests;
+			sourceTree = "<group>";
+		};
+		69C54FD21C9C6E37004DCEB5 /* My Objects */ = {
+			isa = PBXGroup;
+			children = (
+				69C54FD11C9C6E2D004DCEB5 /* MyObject.h */,
+				69C54FCF1C9C6E28004DCEB5 /* MyObject.m */,
+				69C54FC71C9C655E004DCEB5 /* Ship.h */,
+				69C54FC51C9C6557004DCEB5 /* Ship.m */,
+				69C54FCE1C9C6DF1004DCEB5 /* Planet.h */,
+				69C54FCC1C9C6DEC004DCEB5 /* Planet.m */,
+			);
+			name = "My Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +244,7 @@
 				TargetAttributes = {
 					69C54F8E1C9C6505004DCEB5 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5C7WP8NCS7;
 					};
 					69C54FA71C9C6506004DCEB5 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,6 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C54FCB1C9C6DDE004DCEB5 /* Loading.png in Resources */,
+				69C54FC91C9C6980004DCEB5 /* Kamakazi.png in Resources */,
+				69FF04251CA6FC79006D8656 /* Space.png in Resources */,
 				69C54FA21C9C6506004DCEB5 /* LaunchScreen.storyboard in Resources */,
 				69C54F9F1C9C6506004DCEB5 /* Assets.xcassets in Resources */,
 				69C54F9D1C9C6506004DCEB5 /* Main.storyboard in Resources */,
@@ -270,9 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C54FD01C9C6E28004DCEB5 /* MyObject.m in Sources */,
+				69C54FCD1C9C6DEC004DCEB5 /* Planet.m in Sources */,
 				69C54F9A1C9C6506004DCEB5 /* ViewController.m in Sources */,
+				69C54FC61C9C6557004DCEB5 /* Ship.m in Sources */,
 				69C54F971C9C6506004DCEB5 /* AppDelegate.m in Sources */,
 				69C54F941C9C6506004DCEB5 /* main.m in Sources */,
+				69B2957E1CAA30D100BDFD76 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Space/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DshackTech.Space;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +470,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Space/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DshackTech.Space;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +547,7 @@
 				69C54FBE1C9C6506004DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69C54FBF1C9C6506004DCEB5 /* Build configuration list for PBXNativeTarget "SpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +556,7 @@
 				69C54FC11C9C6506004DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69C54FC21C9C6506004DCEB5 /* Build configuration list for PBXNativeTarget "SpaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +565,7 @@
 				69C54FC41C9C6506004DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
